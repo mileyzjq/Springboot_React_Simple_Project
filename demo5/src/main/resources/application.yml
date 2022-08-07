@@ -1,0 +1,12 @@
+server:
+  port: 8060
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3307/spring_boot_test
+    username: root
+    password: zjq123456
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
